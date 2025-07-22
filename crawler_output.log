@@ -1,0 +1,95 @@
+2025-07-22 15:14:10,009 - MainContainer - DEBUG - DEBUG: Initializing MainContainer with LOG_LEVEL=DEBUG
+2025-07-22 15:14:10,009 - ZigbangApiClient - DEBUG - DEBUG_INIT: ZigbangApiClient base_url is set to: https://www.zigbang.com/ws
+2025-07-22 15:14:10,010 - ZigbangApiClient - INFO - ZigbangApiClient initialized.
+2025-07-22 15:14:10,010 - ZigbangCollector - INFO - ZigbangCollector initialized.
+2025-07-22 15:14:10,010 - MainContainer - INFO - MainContainer initialized.
+2025-07-22 15:14:10,010 - MainContainer - INFO - Starting crawlers for BBOX: Lat:[37.493-37.527], Lng:[127.025-127.065]
+2025-07-22 15:14:10,010 - MainContainer - INFO - Collecting Zigbang item IDs by area...
+2025-07-22 15:14:10,010 - ZigbangCollector - INFO - Collecting item IDs for villa in Lat:[37.493-37.527], Lng:[127.025-127.065]
+2025-07-22 15:14:10,010 - ZigbangCollector - INFO - Generated 1 unique geohashes for the BBOX at precision 6.
+2025-07-22 15:14:10,010 - ZigbangCollector - DEBUG - Requesting item IDs for geohash: wydm6u
+2025-07-22 15:14:10,010 - ZigbangApiClient - DEBUG - DEBUG_GET_ITEMS: Requesting URL constructed as: https://www.zigbang.com/ws/v2/items/villa
+2025-07-22 15:14:10,010 - ZigbangApiClient - INFO - Requesting item list for villa with geohash: wydm6u
+2025-07-22 15:14:10,010 - ZigbangApiClient - DEBUG - Making request to URL: https://www.zigbang.com/ws/v2/items/villa with params: {'depositMin': 0, 'rentMin': 0, 'salesTypes': ['전세', '월세', '매매'], 'salesPriceMin': 0, 'domain': 'zigbang', 'checkAnyItemWithoutFilter': True, 'zoom': 6, 'geohash': 'wydm6u', 'lat_min': 37.493, 'lat_max': 37.527, 'lng_min': 127.025, 'lng_max': 127.065}
+2025-07-22 15:14:10,538 - ZigbangApiClient - ERROR - HTTP error occurred: 404 Client Error: Not Found for url: https://www.zigbang.com/ws/v2/items/villa?depositMin=0&rentMin=0&salesTypes=%EC%A0%84%EC%84%B8&salesTypes=%EC%9B%94%EC%84%B8&salesTypes=%EB%A7%A4%EB%A7%A4&salesPriceMin=0&domain=zigbang&checkAnyItemWithoutFilter=True&zoom=6&geohash=wydm6u&lat_min=37.493&lat_max=37.527&lng_min=127.025&lng_max=127.065 - Status: N/A, Response: No response text...
+2025-07-22 15:14:11,038 - ZigbangCollector - INFO - Collected 0 unique item IDs for Zigbang.
+2025-07-22 15:14:11,038 - MainContainer - INFO - Total unique Zigbang item IDs collected: 0
+2025-07-22 15:14:11,039 - MainContainer - INFO - No Zigbang items found for the specified area.
+2025-07-22 15:16:54,038 - MainContainer - DEBUG - DEBUG: Initializing MainContainer with LOG_LEVEL=DEBUG
+2025-07-22 15:16:54,039 - ZigbangApiClient - DEBUG - DEBUG_INIT: ZigbangApiClient base_url is set to: https://www.zigbang.com/ws
+2025-07-22 15:16:54,039 - ZigbangApiClient - INFO - ZigbangApiClient initialized.
+2025-07-22 15:16:54,039 - ZigbangCollector - INFO - ZigbangCollector initialized.
+2025-07-22 15:16:54,039 - MainContainer - INFO - MainContainer initialized.
+2025-07-22 15:16:54,039 - MainContainer - INFO - Starting crawlers for BBOX: Lat:[37.493-37.527], Lng:[127.025-127.065]
+2025-07-22 15:16:54,039 - MainContainer - INFO - Collecting Zigbang item IDs by area...
+2025-07-22 15:16:54,039 - ZigbangCollector - INFO - Collecting item IDs for villa in Lat:[37.493-37.527], Lng:[127.025-127.065]
+2025-07-22 15:16:54,039 - ZigbangCollector - INFO - Generated 1 unique geohashes for the BBOX at precision 6.
+2025-07-22 15:16:54,039 - ZigbangCollector - DEBUG - Requesting item IDs for geohash: wydm6u
+2025-07-22 15:16:54,039 - ZigbangApiClient - DEBUG - DEBUG_GET_ITEMS: Requesting URL constructed as: https://www.zigbang.com/ws/v2/search
+2025-07-22 15:16:54,039 - ZigbangApiClient - INFO - Requesting item list for villa with geohash: wydm6u
+2025-07-22 15:16:54,296 - ZigbangApiClient - ERROR - HTTP error occurred: 404 Client Error: Not Found for url: https://www.zigbang.com/ws/v2/search?depositMin=0&rentMin=0&salesTypes=%EC%A0%84%EC%84%B8&salesTypes=%EC%9B%94%EC%84%B8&salesTypes=%EB%A7%A4%EB%A7%A4&salesPriceMin=0&domain=zigbang&checkAnyItemWithoutFilter=True&zoom=6&geohash=wydm6u&lat_min=37.493&lat_max=37.527&lng_min=127.025&lng_max=127.065&serviceType=villa&q= - Status: N/A, Response: No response text...
+2025-07-22 15:16:54,796 - ZigbangCollector - INFO - Collected 0 unique item IDs for Zigbang.
+2025-07-22 15:16:54,796 - MainContainer - INFO - Total unique Zigbang item IDs collected: 0
+2025-07-22 15:16:54,796 - MainContainer - INFO - No Zigbang items found for the specified area.
+2025-07-22 15:19:46,236 - MainContainer - DEBUG - DEBUG: Initializing MainContainer with LOG_LEVEL=DEBUG
+2025-07-22 15:19:46,236 - ZigbangApiClient - DEBUG - DEBUG_INIT: ZigbangApiClient base_url is set to: https://www.zigbang.com/ws
+2025-07-22 15:19:46,236 - ZigbangApiClient - INFO - ZigbangApiClient initialized.
+2025-07-22 15:19:46,236 - ZigbangCollector - INFO - ZigbangCollector initialized.
+2025-07-22 15:19:46,236 - MainContainer - INFO - MainContainer initialized.
+2025-07-22 15:19:46,236 - MainContainer - INFO - Starting crawlers for BBOX: Lat:[37.493-37.527], Lng:[127.025-127.065]
+2025-07-22 15:19:46,236 - MainContainer - INFO - Collecting Zigbang item IDs by area...
+2025-07-22 15:19:46,236 - ZigbangCollector - INFO - Collecting item IDs for villa in Lat:[37.493-37.527], Lng:[127.025-127.065]
+2025-07-22 15:19:46,236 - ZigbangCollector - INFO - Generated 1 unique geohashes for the BBOX at precision 6.
+2025-07-22 15:19:46,236 - ZigbangCollector - DEBUG - Requesting item IDs for geohash: wydm6u
+2025-07-22 15:19:46,236 - ZigbangApiClient - DEBUG - DEBUG_GET_ITEMS: Requesting URL constructed as: https://www.zigbang.com/ws/v2/search
+2025-07-22 15:19:46,236 - ZigbangApiClient - INFO - Requesting item list for villa (serviceType: 빌라) with geohash: wydm6u
+2025-07-22 15:19:46,459 - ZigbangApiClient - ERROR - HTTP error occurred: 404 Client Error: Not Found for url: https://www.zigbang.com/ws/v2/search?depositMin=0&rentMin=0&salesTypes=%EC%A0%84%EC%84%B8&salesTypes=%EC%9B%94%EC%84%B8&salesTypes=%EB%A7%A4%EB%A7%A4&salesPriceMin=0&domain=zigbang&checkAnyItemWithoutFilter=True&zoom=6&geohash=wydm6u&lat_min=37.493&lat_max=37.527&lng_min=127.025&lng_max=127.065&serviceType=%EB%B9%8C%EB%9D%BC&q= - Status: N/A, Response: No response text...
+2025-07-22 15:19:46,960 - ZigbangCollector - INFO - Collected 0 unique item IDs for Zigbang.
+2025-07-22 15:19:46,960 - MainContainer - INFO - Total unique Zigbang item IDs collected: 0
+2025-07-22 15:19:46,960 - MainContainer - INFO - No Zigbang items found for the specified area.
+2025-07-22 15:22:03,025 - MainContainer - DEBUG - DEBUG: Initializing MainContainer with LOG_LEVEL=DEBUG
+2025-07-22 15:22:03,025 - ZigbangApiClient - DEBUG - DEBUG_INIT: ZigbangApiClient base_url is set to: https://apis.zigbang.com
+2025-07-22 15:22:03,025 - ZigbangApiClient - INFO - ZigbangApiClient initialized.
+2025-07-22 15:22:03,025 - ZigbangCollector - INFO - ZigbangCollector initialized.
+2025-07-22 15:22:03,026 - MainContainer - INFO - MainContainer initialized.
+2025-07-22 15:22:03,026 - MainContainer - INFO - Starting crawlers for BBOX: Lat:[37.493-37.527], Lng:[127.025-127.065]
+2025-07-22 15:22:03,026 - MainContainer - INFO - Collecting Zigbang item IDs by area...
+2025-07-22 15:22:03,026 - ZigbangCollector - INFO - Collecting item IDs for villa in Lat:[37.493-37.527], Lng:[127.025-127.065]
+2025-07-22 15:22:03,026 - ZigbangCollector - INFO - Generated 1 unique geohashes for the BBOX at precision 6.
+2025-07-22 15:22:03,026 - ZigbangCollector - DEBUG - Requesting item IDs for geohash: wydm6u
+2025-07-22 15:22:03,026 - ZigbangApiClient - DEBUG - DEBUG_GET_ITEMS: Requesting URL constructed as: https://apis.zigbang.com/v2/search
+2025-07-22 15:22:03,026 - ZigbangApiClient - INFO - Requesting item list for villa (serviceType: 빌라) with geohash: wydm6u
+2025-07-22 15:22:03,754 - ZigbangCollector - INFO - Collected 0 unique item IDs for Zigbang.
+2025-07-22 15:22:03,754 - MainContainer - INFO - Total unique Zigbang item IDs collected: 0
+2025-07-22 15:22:03,754 - MainContainer - INFO - No Zigbang items found for the specified area.
+2025-07-22 15:27:13,847 - MainContainer - DEBUG - DEBUG: Initializing MainContainer with LOG_LEVEL=DEBUG
+2025-07-22 15:27:13,847 - ZigbangApiClient - DEBUG - DEBUG_INIT: ZigbangApiClient base_url is set to: https://apis.zigbang.com
+2025-07-22 15:27:13,848 - ZigbangApiClient - INFO - ZigbangApiClient initialized.
+2025-07-22 15:27:13,848 - ZigbangCollector - INFO - ZigbangCollector initialized.
+2025-07-22 15:27:13,848 - MainContainer - INFO - MainContainer initialized.
+2025-07-22 15:27:13,848 - MainContainer - INFO - Starting crawlers for BBOX: Lat:[37.493-37.527], Lng:[127.025-127.065]
+2025-07-22 15:27:13,848 - MainContainer - INFO - Collecting Zigbang item IDs by area...
+2025-07-22 15:27:13,848 - ZigbangCollector - INFO - Collecting item IDs for villa in Lat:[37.493-37.527], Lng:[127.025-127.065]
+2025-07-22 15:27:13,848 - ZigbangCollector - INFO - Generated 1 unique geohashes for the BBOX at precision 6.
+2025-07-22 15:27:13,848 - ZigbangCollector - DEBUG - Requesting item IDs for geohash: wydm6u
+2025-07-22 15:27:13,848 - ZigbangApiClient - DEBUG - DEBUG_GET_ITEMS: Requesting URL constructed as: https://apis.zigbang.com/v2/search
+2025-07-22 15:27:13,848 - ZigbangApiClient - INFO - Requesting item list for villa (serviceType: 빌라) with geohash: wydm6u
+2025-07-22 15:27:14,552 - ZigbangCollector - INFO - Collected 0 unique item IDs for Zigbang.
+2025-07-22 15:27:14,552 - MainContainer - INFO - Total unique Zigbang item IDs collected: 0
+2025-07-22 15:27:14,552 - MainContainer - INFO - No Zigbang items found for the specified area.
+2025-07-22 15:31:11,805 - MainContainer - DEBUG - DEBUG: Initializing MainContainer with LOG_LEVEL=DEBUG
+2025-07-22 15:31:11,806 - ZigbangApiClient - DEBUG - DEBUG_INIT: ZigbangApiClient base_url is set to: https://apis.zigbang.com
+2025-07-22 15:31:11,806 - ZigbangApiClient - INFO - ZigbangApiClient initialized.
+2025-07-22 15:31:11,806 - ZigbangCollector - INFO - ZigbangCollector initialized.
+2025-07-22 15:31:11,806 - MainContainer - INFO - MainContainer initialized.
+2025-07-22 15:31:11,806 - MainContainer - INFO - Starting crawlers for BBOX: Lat:[37.493-37.527], Lng:[127.025-127.065]
+2025-07-22 15:31:11,806 - MainContainer - INFO - Collecting Zigbang item IDs by area...
+2025-07-22 15:31:11,806 - ZigbangCollector - INFO - Collecting item IDs for villa in Lat:[37.493-37.527], Lng:[127.025-127.065]
+2025-07-22 15:31:11,806 - ZigbangCollector - INFO - Generated 1 unique geohashes for the BBOX at precision 6.
+2025-07-22 15:31:11,806 - ZigbangCollector - DEBUG - Requesting item IDs for geohash: wydm6u
+2025-07-22 15:31:11,806 - ZigbangApiClient - DEBUG - DEBUG_GET_ITEMS: Requesting URL constructed as: https://apis.zigbang.com/v2/search
+2025-07-22 15:31:11,806 - ZigbangApiClient - INFO - Requesting item list for villa with geohash: wydm6u
+2025-07-22 15:31:12,119 - ZigbangApiClient - ERROR - HTTP error occurred: 400 Client Error: Bad Request for url: https://apis.zigbang.com/v2/search?depositMin=0&rentMin=0&salesTypes=%EC%A0%84%EC%84%B8&salesTypes=%EC%9B%94%EC%84%B8&salesTypes=%EB%A7%A4%EB%A7%A4&salesPriceMin=0&domain=zigbang&checkAnyItemWithoutFilter=True&zoom=6&geohash=wydm6u&lat_min=37.493&lat_max=37.527&lng_min=127.025&lng_max=127.065&serviceType=villa - Status: N/A, Response: No response text...
+2025-07-22 15:31:12,619 - ZigbangCollector - INFO - Collected 0 unique item IDs for Zigbang.
+2025-07-22 15:31:12,620 - MainContainer - INFO - Total unique Zigbang item IDs collected: 0
+2025-07-22 15:31:12,620 - MainContainer - INFO - No Zigbang items found for the specified area.

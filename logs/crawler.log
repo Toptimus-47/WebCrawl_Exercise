@@ -1,0 +1,26 @@
+2025-07-22 12:02:50,306 - __main__ - INFO - Starting Main Crawling Container.
+2025-07-22 12:02:50,306 - __main__ - INFO - Starting Zigbang Crawling Process.
+2025-07-22 12:02:50,306 - ZigbangApiClient - INFO - ZigbangApiClient initialized.
+2025-07-22 12:02:50,306 - ZigbangApiClient - INFO - ZigbangApiClient initialized.
+2025-07-22 12:02:50,306 - ZigbangCollector - INFO - ZigbangCollector initialized.
+2025-07-22 12:02:50,306 - ZigbangCollector - INFO - ZigbangCollector initialized.
+2025-07-22 12:02:50,307 - ZigbangDataConverter - INFO - ZigbangDataConverter initialized.
+2025-07-22 12:02:50,307 - ZigbangDataConverter - INFO - ZigbangDataConverter initialized.
+2025-07-22 12:02:50,307 - ZigbangDataSaver - INFO - ZigbangDataSaver initialized.
+2025-07-22 12:02:50,307 - ZigbangDataSaver - INFO - ZigbangDataSaver initialized.
+2025-07-22 12:02:50,307 - __main__ - INFO - Collecting item IDs for Zigbang in area: {'lat_min': 37.493, 'lat_max': 37.527, 'lng_min': 127.025, 'lng_max': 127.065}
+2025-07-22 12:02:50,307 - ZigbangCollector - INFO - Collecting item IDs for villa in Lat:[37.493-37.527], Lng:[127.025-127.065]
+2025-07-22 12:02:50,307 - ZigbangCollector - INFO - Collecting item IDs for villa in Lat:[37.493-37.527], Lng:[127.025-127.065]
+2025-07-22 12:06:05,846 - __main__ - INFO - Starting Main Crawling Container.
+2025-07-22 12:06:05,846 - __main__ - INFO - Starting Zigbang Crawling Process.
+2025-07-22 12:06:05,846 - ZigbangApiClient - INFO - ZigbangApiClient initialized.
+2025-07-22 12:06:05,846 - ZigbangApiClient - INFO - ZigbangApiClient initialized.
+2025-07-22 12:06:05,847 - ZigbangCollector - INFO - ZigbangCollector initialized.
+2025-07-22 12:06:05,847 - ZigbangCollector - INFO - ZigbangCollector initialized.
+2025-07-22 12:06:05,847 - ZigbangDataConverter - INFO - ZigbangDataConverter initialized.
+2025-07-22 12:06:05,847 - ZigbangDataConverter - INFO - ZigbangDataConverter initialized.
+2025-07-22 12:06:05,847 - ZigbangDataSaver - INFO - ZigbangDataSaver initialized.
+2025-07-22 12:06:05,847 - ZigbangDataSaver - INFO - ZigbangDataSaver initialized.
+2025-07-22 12:06:05,847 - __main__ - INFO - Collecting item IDs for Zigbang in area: {'lat_min': 37.493, 'lat_max': 37.527, 'lng_min': 127.025, 'lng_max': 127.065}
+2025-07-22 12:06:05,847 - ZigbangCollector - INFO - Collecting item IDs for villa in Lat:[37.493-37.527], Lng:[127.025-127.065]
+2025-07-22 12:06:05,847 - ZigbangCollector - INFO - Collecting item IDs for villa in Lat:[37.493-37.527], Lng:[127.025-127.065]
